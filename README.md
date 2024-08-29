@@ -2,57 +2,57 @@
 
 ## Table of Contents
 
-| No. | Questions                                                                                                                                                                                                                   |
-| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | [Difference between CONDEL, CONINS, CONLEN, etc.?](#difference-between-condel-conins-conlen-etc)                                                                                                                            |
-| 2   | [Difference between edit and display method?](#difference-between-edit-and-display-method)                                                                                                                                  |
-| 3   | [Difference between perspectives and table collection?](#difference-between-perspectives-and-table-collection)                                                                                                              |
-| 4   | [What are the 4 types of files we need to copy to the standard folder?](#what-are-the-4-types-of-files-we-need-to-copy-to-the-standard-folder)                                                                              |
-| 5   | [Why do we use virtual companies?](#why-do-we-use-virtual-companies)                                                                                                                                                        |
-| 6   | [How can we restrict a class to be further extended?](#how-can-we-restrict-a-class-to-be-further-extended)                                                                                                                  |
-| 7   | [Which classes are used for data import/export?](#which-classes-are-used-for-data-importexport)                                                                                                                             |
-| 8   | [From which table can you get the user permissions stored in AX?](#from-which-table-can-you-get-the-user-permissions-stored-in-ax)                                                                                          |
-| 9   | [What should we do if we need the last record to be active when a form is opened?](#what-should-we-do-if-we-need-the-last-record-to-be-active-when-a-form-is-opened)                                                        |
-| 10  | [What is the sequence of events while a report is generated?](#what-is-the-sequence-of-events-while-a-report-is-generated)                                                                                                  |
-| 11  | [Name a few X++ classes related to queries?](#name-a-few-x-classes-related-to-queries)                                                                                                                                      |
-| 12  | [What is an index?](#what-is-an-index)                                                                                                                                                                                      |
-| 13  | [Define IntelliMorph](#define-intellimorph)                                                                                                                                                                                 |
-| 14  | [Define MorphX](#define-morphx)                                                                                                                                                                                             |
-| 15  | [Define X++](#define-x)                                                                                                                                                                                                     |
-| 16  | [Differentiate between refresh(), reread(), research(), and executeQuery()](#differentiate-between-refresh-reread-research-and-executequery)                                                                                |
-| 17  | [Define AOT](#define-aot)                                                                                                                                                                                                   |
-| 18  | [Define AOS](#define-aos)                                                                                                                                                                                                   |
-| 19  | [Difference between temp table and container](#difference-between-temp-table-and-container)                                                                                                                                 |
-| 20  | [What is an EDT, Base Enum, and how can we use array elements of an EDT?](#what-is-an-edt-base-enum-and-how-can-we-use-array-elements-of-an-edt)                                                                            |
-| 21  | [Definition and use of Maps, how AddressMap is used in standard AX?](#definition-and-use-of-maps-how-addressmap-is-used-in-standard-ax)                                                                                     |
-| 22  | [What is the difference between Index and Index hint?](#what-is-the-difference-between-index-and-index-hint)                                                                                                                |
-| 23  | [How many types of data validation methods are written on table level?](#how-many-types-of-data-validation-methods-are-written-on-table-level)                                                                              |
-| 24  | [How many types of relations are available in Axapta?](#how-many-types-of-relations-are-available-in-axapta)                                                                                                                |
-| 25  | [When is the recId generated, and what is its utility?](#when-is-the-recid-generated-and-what-is-its-utility)                                                                                                               |
-| 26  | [Difference between Primary & Cluster index](#difference-between-primary-cluster-index)                                                                                                                                     |
-| 27  | [How many kinds of lookups can be made and how?](#how-many-kinds-of-lookups-can-be-made-and-how)                                                                                                                            |
-| 28  | [How many types of Delete Actions are there in Standard AX?](#how-many-types-of-delete-actions-are-there-in-standard-ax)                                                                                                    |
-| 29  | [If any record is created in a table, how do you fetch the date & time stamp?](#if-any-record-is-created-in-a-table-how-do-you-fetch-the-date--time-stamp)                                                                  |
-| 30  | [What is the function of super()?](#what-is-the-function-of-super)                                                                                                                                                          |
-| 31  | [Utility and use of find method](#utility-and-use-of-find-method)                                                                                                                                                           |
-| 32  | [What are the different types of Table groups defined on table properties?](#what-are-the-different-types-of-table-groups-defined-on-table-properties)                                                                      |
-| 33  | [Is multiple inheritance possible in X++?](#is-multiple-inheritance-possible-in-x)                                                                                                                                          |
-| 34  | [Do we need to write a main method?](#do-we-need-to-write-a-main-method)                                                                                                                                                    |
-| 35  | [What is the difference between new() and construct() method?](#what-is-the-difference-between-new-and-construct-method)                                                                                                    |
-| 36  | [What is the utility of the RunOn property?](#what-is-the-utility-of-the-runon-property)                                                                                                                                    |
-| 37  | [What is the main class used in batch processing?](#what-is-the-main-class-used-in-batch-processing)                                                                                                                        |
-| 38  | [How can we make a batch job occur at regular intervals?](#how-can-we-make-a-batch-job-occur-at-regular-intervals)                                                                                                          |
-| 39  | [What is the main utility of classes in standard AX?](#what-is-the-main-utility-of-classes-in-standard-ax)                                                                                                                  |
-| 40  | [Which class is called when we create a SO/PO?](#which-class-is-called-when-we-create-a-sopo)                                                                                                                               |
-| 41  | [What is the basic structure of a form?](#what-is-the-basic-structure-of-a-form)                                                                                                                                            |
-| 42  | [Properties of a form datasource](#properties-of-a-form-datasource)                                                                                                                                                         |
-| 43  | [Where should we write validateWrite() method: form DS or table level?](#where-should-we-write-validatewrite-method-form-ds-or-table-level)                                                                                 |
-| 44  | [How can we call table-level methods from form DS?](#how-can-we-call-table-level-methods-from-form-ds)                                                                                                                      |
-| 45  | [What is the difference between form init() and DS init()?](#what-is-the-difference-between-form-init-and-ds-init)                                                                                                          |
-| 46  | [When a form opens, what are the sequential methods called?](#when-a-form-opens-what-are-the-sequential-methods-called)                                                                                                     |
-| 47  | [Where is the best place to write code to perform filtering in a form?](#where-is-the-best-place-to-write-code-to-perform-filtering-in-a-form)                                                                              |
-| 48  | [What are the different types of menu items available?](#what-are-the-different-types-of-menu-items-available)                                                                                                              |
-| 49  | [Action type menu item is attached to a form but is not appearing in the dropdown; what could be the problem?](#action-type-menu-item-is-attached-to-a-form-but-is-not-appearing-in-the-dropdown-what-could-be-the-problem) |
+| No. | Questions                                                                                                                                                           |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | [Difference between CONDEL, CONINS, CONLEN, etc.?](#1-difference-between-container-operations)                                                                      |
+| 2   | [Difference between edit and display method?](#2-difference-between-edit-and-display-method)                                                                        |
+| 3   | [Difference between perspectives and table collection?](#3-difference-between-perspectives-and-table-collection)                                                    |
+| 4   | [What are the 4 types of files we need to copy to the standard folder?](#4-types-of-files-to-copy-to-the-standard-folder)                                           |
+| 5   | [Why do we use virtual companies?](#5-why-use-virtual-companies)                                                                                                    |
+| 6   | [How can we restrict a class to be further extended?](#6-restricting-a-class-from-extension)                                                                        |
+| 7   | [Which classes are used for data import/export?](#7-classes-for-data-importexport)                                                                                  |
+| 8   | [From which table can you get the user permissions stored in AX?](#8-table-storing-user-permissions-in-ax)                                                          |
+| 9   | [What should we do if we need the last record to be active when a form is opened?](#9-activating-the-last-record-on-form-open)                                      |
+| 10  | [What is the sequence of events while a report is generated?](#10-sequence-of-events-while-generating-a-report)                                                     |
+| 11  | [Name a few X++ classes related to queries?](#11-x-classescore-classes-related-to-queries)                                                                          |
+| 12  | [What is an index?](#12-what-is-an-index)                                                                                                                           |
+| 13  | [Define IntelliMorph](#13-define-intellimorph)                                                                                                                      |
+| 14  | [Define MorphX](#14-define-morphx)                                                                                                                                  |
+| 15  | [Define X++](#15-define-x)                                                                                                                                          |
+| 16  | [Differentiate between refresh(), reread(), research(), and executeQuery()](#16-difference-between-refresh-reread-research-executequery)                            |
+| 17  | [Define AOT](#17-define-aot)                                                                                                                                        |
+| 18  | [Define AOS](#18-define-aos)                                                                                                                                        |
+| 19  | [Difference between temp table and container](#19-difference-between-temp-table-and-container)                                                                      |
+| 20  | [What is an EDT, Base Enum, and how can we use array elements of an EDT?](#20-edt-base-enum-and-their-usage)                                                        |
+| 21  | [Definition and use of Maps, how AddressMap is used in standard AX?](#21-maps-and-addressmap-usage-in-ax)                                                           |
+| 22  | [What is the difference between Index and Index hint?](#22-difference-between-index-and-index-hint)                                                                 |
+| 23  | [How many types of data validation methods are written on table level?](#23-data-validation-methods-at-the-table-level)                                             |
+| 24  | [How many types of relations are available in Axapta?](#24-types-of-relations-in-axapta)                                                                            |
+| 25  | [When is the recId generated, and what is its utility?](#25-utility-of-recid)                                                                                       |
+| 26  | [Difference between Primary & Cluster index](#26-difference-between-primary--cluster-index)                                                                         |
+| 27  | [How many kinds of lookups can be made and how?](#27-types-of-lookups)                                                                                              |
+| 28  | [How many types of Delete Actions are there in Standard AX?](#28-types-of-delete-actions-in-ax)                                                                     |
+| 29  | [If any record is created in a table, how do you fetch the date & time stamp?](#29-fetching-date--time-stamp-on-record-creation)                                    |
+| 30  | [What is the function of super()?](#30-function-of-super)                                                                                                           |
+| 31  | [Utility and use of find method](#31-utility-and-use-of-find-method)                                                                                                |
+| 32  | [What are the different types of Table groups defined on table properties?](#32-types-of-table-groups)                                                              |
+| 33  | [Is multiple inheritance possible in X++?](#33-handling-lack-of-multiple-inheritance)                                                                               |
+| 34  | [Do we need to write a main method?](#34-necessity-of-the-main-method)                                                                                              |
+| 35  | [What is the difference between new() and construct() method?](#35-difference-between-new--construct-method)                                                        |
+| 36  | [What is the utility of the RunOn property?](#36-utility-of-runon-property)                                                                                         |
+| 37  | [What is the main class used in batch processing?](#37-main-class-for-batch-processes)                                                                              |
+| 38  | [How can we make a batch job occur at regular intervals?](#38-regular-interval-batch-jobs)                                                                          |
+| 39  | [What is the main utility of classes in standard AX?](#39-main-utility-of-classes-in-standard-ax)                                                                   |
+| 40  | [Which class is called when we create a SO/PO?](#40-classes-called-during-sopo-creation)                                                                            |
+| 41  | [What is the basic structure of a form?](#41-basic-structure-of-a-form)                                                                                             |
+| 42  | [Properties of a form datasource](#42-properties-of-a-form-datasource)                                                                                              |
+| 43  | [Where should we write validateWrite() method: form DS or table level?](#43-validatewrite-in-form-datasource-vs-table-level)                                        |
+| 44  | [How can we call table-level methods from form DS?](#44-calling-table-level-methods-from-form-datasource)                                                           |
+| 45  | [What is the difference between form init() and DS init()?](#45-difference-between-form-init--ds-init)                                                              |
+| 46  | [When a form opens, what are the sequential methods called?](#46-sequential-methods-when-opening-a-form)                                                            |
+| 47  | [Where is the best place to write code to perform filtering in a form?](#47-best-place-to-write-code-to-perform-filter-in-a-form)                                   |
+| 48  | [What are the different types of menu items available?](#48-types-of-menu-items)                                                                                    |
+| 49  | [Action type menu item is attached to a form but is not appearing in the dropdown; what could be the problem?](#49-action-type-menu-item-not-appearing-in-dropdown) |
 
 # AX Interview Questions & Answers
 
